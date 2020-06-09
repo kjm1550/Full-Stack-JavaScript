@@ -1,0 +1,42 @@
+input {
+	width: 100%;
+	max-width: 100vw;
+	height: 100px;
+	position: relative;
+	border: none;
+	padding-right: 50px;
+	float: right;
+	text-align: right;
+	font-size: 32px;
+	background-color: #538d22;
+	color: #143601;
+}
+.floaty-last {
+	position: absolute;
+	right: 50px;
+	z-index: 99;
+	top: 10px;
+	color: #1a4301;
+}
+
+.column-3 {
+	width: 75%;
+	float: left;
+}
+.column-2 {
+	width: 50%;
+	float: left;
+}
+.column-1 {
+	width: 25%;
+	float: left;
+}
+
+button.calc-button {
+	width: 100%;
+	height: 100px;
+	border: 1px #aad576 solid;
+	background-color: #73a942;
+	color: #1a4301;
+	font-size: 32px;
+}
