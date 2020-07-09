@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Header from '../Common/Header';
 
+// Reusable Components
+import Services from '../Common/Services';
+import Portfolio from '../Common/Portfolio';
+
 class Home extends Component {
 	render() {
 		return (
@@ -13,6 +17,8 @@ class Home extends Component {
 					showButton={true}
 					image="/assets/img/header-bg.jpg"
 				/>
+				<Services />
+				<Portfolio />
 			</div>
 		);
 	}
