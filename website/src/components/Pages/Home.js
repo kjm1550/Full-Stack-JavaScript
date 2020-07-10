@@ -4,6 +4,8 @@ import Header from '../Common/Header';
 // Reusable Components
 import Services from '../Common/Services';
 import Portfolio from '../Common/Portfolio';
+import Timeline from '../Common/Timeline';
+import Team from '../Common/Team';
 
 class Home extends Component {
 	render() {
@@ -19,6 +21,8 @@ class Home extends Component {
 				/>
 				<Services />
 				<Portfolio />
+				<Timeline />
+				<Team />
 			</div>
 		);
 	}
